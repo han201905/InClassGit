@@ -1,5 +1,7 @@
 def calc(a,b):
-    sum = a + b
-    print(sum)
+    #sum = a + b
+    
+    difference = a - b
+    print(difference)
 
 
