@@ -3,4 +3,5 @@ def divisor(n):
     while i <= n:
         if(n % i ==0):
             print i 
-        i = i + 1    
+        i = i + 1   
+divisor(100) 
