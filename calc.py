@@ -4,6 +4,9 @@ def calc(a,b):
     multiply = a * b
     division = a / b
     _list = [sum, difference, multiply, division]
-    print(_list)
+    sumOfList = 0
+    for x in _list:
+        sumOfList += x
+    print(sumOfList)
 
 
